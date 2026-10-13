@@ -11,7 +11,7 @@ let reloaded = false;
 
 function basePath(): string {
   if (typeof location === 'undefined') return '';
-  return location.pathname.startsWith('/first-repository') ? '/first-repository' : '';
+  return location.pathname.startsWith('/mkchurch-app') ? '/mkchurch-app' : '';
 }
 
 export function registerServiceWorker(): void {

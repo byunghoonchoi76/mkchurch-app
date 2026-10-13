@@ -47,7 +47,7 @@ const DEFAULT_STATE: ReminderState = {
 
 function basePath(): string {
   if (typeof location === 'undefined') return '';
-  return location.pathname.startsWith('/first-repository') ? '/first-repository' : '';
+  return location.pathname.startsWith('/mkchurch-app') ? '/mkchurch-app' : '';
 }
 
 function urlBase64ToUint8Array(base64: string): Uint8Array {
